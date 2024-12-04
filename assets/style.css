@@ -15,11 +15,18 @@ body {
   --font-sen: "Sen", sans-serif;
   --mau: #ffb900;
 }
-/*common */
+/*thuoc tinh chung */
 a {
   text-decoration: none;
 }
-
+.title-h2 {
+  color: #171100;
+  font-family: var(--font-sen);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
 .btn {
   display: inline-block;
   min-width: 118px;
@@ -214,3 +221,42 @@ a:hover {
 .hero .right-box .one {
   margin-right: 28px;
 }
+/* popular */
+/* pp-top */
+.popular {
+  padding: 50px;
+  margin-top: 150px;
+}
+.popular .popular-top {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-top .decs {
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67;
+}
+.popular-top .right-box {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.popular-top .bt {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--mau);
+  border: 1px solid var(--mau);
+}
+.popular-top .bt:hover {
+  color: #fff;
+  background-color: var(--mau);
+}
+/* pp-bottom */
