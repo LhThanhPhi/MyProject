@@ -260,3 +260,66 @@ a:hover {
   background-color: var(--mau);
 }
 /* pp-bottom */
+.popular-bottom {
+  margin-top: 55px;
+  display: flex;
+}
+.popular-bottom .img {
+  width: 370px;
+  height: 278px;
+  border-radius: 12px 12px 0px 0px;
+}
+.popular-bottom .decs {
+  padding: 16px 22px 22px;
+}
+.popular-bottom .item {
+  margin-right: 30px;
+}
+.popular-bottom .item .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-bottom .item .head1 a {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.popular-bottom .item .head2 {
+  display: flex;
+  align-items: center;
+}
+.popular-bottom .item .vote {
+  color: var(--mau);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.popular-bottom .body .detail {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+}
+.popular-bottom .foot {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-bottom .foot .price {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.popular-bottom .foot .btn-book {
+  border: none;
+  cursor: pointer;
+}
+.popular-bottom .foot .btn-book:hover {
+  background-color: var(--mau);
+  color: #fff;
+}
+.popular-bottom .item:hover {
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
